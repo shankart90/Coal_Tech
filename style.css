@@ -1,0 +1,153 @@
+body{
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.dropdown-menu::before,
+.dropdown-menu::after {
+    border: none;
+    content: none;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+.dropdown-submenu.pull-left {
+    float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+#btn {
+    border: 0 !important;
+    border-radius: 0;
+    background: none;
+    -webkit-appearance: none;
+    color: white;
+    background-color: darkorange;
+}
+#text-color {
+    color: darkorange;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+#your {
+    color: black;
+    font-weight: 500;
+    font-size: 35px;
+}
+#logo {
+    color: darkorange;
+    font-weight: 500;
+    padding-left: 2.5%;
+    font-size: 35px;
+}
+#top-header {
+    padding-bottom: 14px;
+    background-color: darkorange;
+}
+#inner-header {
+    padding-top: 1%;
+}
+#call-us {
+    padding-left: 10.5%;
+    position: relative;
+    font-weight: 500;
+    color:darkred;
+}
+#number {
+    color: white;
+    font-weight: 500;
+    padding: 0.5%
+}
+#login {
+    float: right;
+    margin-right: 13.5%;
+    font-weight: 500;
+}
+#signup {
+    float: right;
+    margin-right: -5.5%;
+    font-weight: 500;
+    color: white
+}
+#images{
+    margin-top: 70px;
+}
+@media (min-width:768px) {
+ .navbar-default {
+  min-height:80px;
+ }
+}
+#yourlogo{
+  margin-top: 10px;
+}
+.dropdown-menu li a:hover{
+    font-weight:bold;
+}
+
+/* Google fonts */
+/* cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v14/C6GGSmqIX4ribdvhAcF3zX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v14/Z47oc0BtjIgiXLu7VsCGjX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v14/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v14/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
